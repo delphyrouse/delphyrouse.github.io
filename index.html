@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Практическая 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://www.mysite.ru/lwd/process.php"><fieldset class="height">
+        <h1>Анкета разработчика</h1>
+        <div>
+            <div>
+                <fieldset id="fildleft"> 
+                    Ваше имя: <br>Пароль:
+                </fieldset>  
+                <fieldset id="fildright">
+                    <label><input type="text" required></label> 
+                    <br><label><input type="password" required></label>
+                </fieldset>
+            </div>
+       
+            <div>
+                <fieldset id="fildleft">
+                    E-mail: <br>Телефон: 
+                </fieldset>
+                <fieldset id="fildright">
+                    <label><input type="email" required></label> <br><label><input type="tel" required></label>
+                </fieldset>
+            </div>
+
+
+            <div>
+                <fieldset id="fildleft"> 
+                    Ваш пол: <br>Ваш возраст:
+                </fieldset>
+                <fieldset id="fildright">
+                    <div><input type="radio" name="name"><label for="">М</label> 
+                        <input type="radio" name="name"><label for="">Ж</label></div>
+                    <label for="">18<input type="range">80</label>  
+                </fieldset>
+            </div>
+
+
+                <div>
+                    <fieldset id="fildleft"> 
+                        Ваша специализация: <br>Ваши навыки:
+                    </fieldset> 
+                    <fieldset id="fildright">
+                            <select name="" id=""> 
+                            <option value="">Web-дизайнер</option>
+                            <option value="">Что-то другое</option>
+                        </select>
+                        <br><input type="checkbox">знание HTML
+                        <br><input type="checkbox">знание Java
+                        <br><input type="checkbox">знание PHP
+                        <br><input type="checkbox">знание Adobe Photoshop
+                        <br><input type="checkbox">знание Flash
+                    </fieldset>
+                </div>
+
+
+            <div>
+                <fieldset id="fildleftbottom">
+                    Дополнительные сведения о себе:
+                </fieldset> 
+                <fieldset id="fildrightbottom">
+                    <textarea name="" id="" class="skillstext"></textarea>
+                </fieldset>
+            </div>
+
+            <fieldset id="fieldset">
+                <legend>Результаты надо:</legend>
+                <button type="submit">Отправить</button>
+                <button type="reset">Удалить</button>
+            </fieldset>
+
+        </div>
+    </fieldset>
+    </form>
+</body>
+</html>
